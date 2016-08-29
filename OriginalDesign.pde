@@ -90,6 +90,12 @@ void twinkling ()
 	ellipse(xTwinkle+250,yTwinkle+200,5,5);
 	ellipse(xTwinkle+300,yTwinkle+300,5,5);
 }
+	if (Math.random()<0.09)
+	{
+	ellipse(xTwinkle+20,yTwinkle+20,5,5);
+	ellipse(xTwinkle+100,yTwinkle+300,5,5);
+	ellipse(xTwinkle+300,yTwinkle+100,5,5);
+}
 }
 
 
